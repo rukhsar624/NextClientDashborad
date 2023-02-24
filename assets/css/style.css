@@ -2453,7 +2453,10 @@ span i {
     border-radius: 30px!important;
     padding-bottom: 150px;
 }
-.pakagesInner {
+/* #Csmcontainer{
+    width: 90%;
+} */
+#Csmcontainer .pakagesInner {
     position: relative;
     width: 325px;
     height: 255px;
@@ -2463,8 +2466,12 @@ span i {
 
 }
 
-.card {
+#Csmcontainer .card {
     background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
 }
 
 .pkgSection label {
@@ -2473,7 +2480,7 @@ span i {
 
 }
 
-.pakagesInner::before {
+#Csmcontainer .pakagesInner::before {
     content: "";
     position: absolute;
     top: 0;
@@ -2487,7 +2494,7 @@ span i {
     z-index: -2;
 }
 
-.pakagesInner::after {
+#Csmcontainer .pakagesInner::after {
     content: "";
     position: absolute;
     top: 0;
