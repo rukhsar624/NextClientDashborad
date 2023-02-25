@@ -1865,405 +1865,6 @@ span i {
     cursor: pointer;
     transform: scale(1.1);
 }
-
-/*  */
-
-/*  */
-/* ========================================= */
-/* MEDIA QUERY  */
-/* ========================================= */
-@media (min-width:1600px) and (min-width:1920px) and (min-width:2560px) and (max-width:1366px) and (max-width:1280px) and (max-width:1024px) {
-    #main-content {
-        display: none;
-    }
-}
-
-/* ================= Min Media Queries============================= */
-@media only screen and (min-width:1600px) {
-    #main-content {
-        display: none;
-    }
-
-    .banner,
-    .second-section::before {
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-
-    .banner::after {
-        display: none;
-
-    }
-
-    .signDiv {
-        height: 696px;
-    }
-
-    .forgetpassword {
-        height: 669px;
-    }
-
-    .link a {
-        text-decoration: none;
-        margin: 0 10px;
-        color: #4D4D4D;
-        align-items: center;
-        font-family: 'Gilroy-Light';
-        font-weight: bold;
-        padding-left: 10px;
-        padding-right: 10px;
-        display: flex;
-        align-items: center;
-    }
-
-    .contactBanner {
-        position: relative;
-        padding-top: 5rem;
-    }
-
-    .contantSectionFirstDiv {
-        position: absolute;
-        content: "";
-        width: 350px;
-        height: 79px;
-        left: 0px;
-        top: -30px;
-
-    }
-
-    .contantSectionLastDiv {
-        position: absolute;
-        content: "";
-        width: 350px;
-        height: 79px;
-        right: 28px;
-        bottom: -45px;
-
-    }
-
-}
-
-@media only screen and (min-width:1400px) {
-    #btn {
-        display: none;
-    }
-
-    #main-content {
-        display: none;
-    }
-
-    .link a {
-        margin: 0px 10px;
-    }
-
-    .link a {
-        text-decoration: none;
-        margin: 0 10px;
-        color: #4D4D4D;
-        align-items: center;
-        font-family: 'Gilroy-Light';
-        font-weight: bold;
-        padding-left: 10px;
-        padding-right: 10px;
-        display: flex;
-        align-items: center;
-    }
-
-    .contantSectionFirstDiv {
-        position: absolute;
-        content: "";
-        width: 350px;
-        height: 79px;
-        left: 0px;
-        top: -30px;
-
-    }
-
-    .contantSectionLastDiv {
-        position: absolute;
-        content: "";
-        width: 350px;
-        height: 79px;
-        right: 28px;
-        bottom: -45px;
-
-    }
-}
-
-@media only screen and (min-width:1440px) {
-    #main-content {
-        display: none;
-    }
-
-    .banner::after {
-        right: 68px;
-        top: 106px;
-    }
-
-    .innerDiv {
-        width: 460px;
-        height: 500px;
-        margin: auto;
-    }
-
-    .link a {
-        text-decoration: none;
-        margin: 0 10px;
-        color: #4D4D4D;
-        align-items: center;
-        font-family: 'Gilroy-Light';
-        font-weight: bold;
-        padding-left: 10px;
-        padding-right: 10px;
-        display: flex;
-        align-items: center;
-    }
-
-    .contantSectionFirstDiv {
-        position: absolute;
-        content: "";
-        width: 350px;
-        height: 79px;
-        left: 0px;
-        top: -30px;
-
-    }
-
-    .contantSectionLastDiv {
-        position: absolute;
-        content: "";
-        width: 350px;
-        height: 79px;
-        right: 28px;
-        bottom: -45px;
-
-    }
-
-    .contantSection {
-        margin-top: 5rem;
-    }
-}
-
-@media only screen and (min-width:1920px) {
-    #main-content {
-        display: none;
-    }
-
-    .link a {
-        text-decoration: none;
-        margin: 0 10px;
-        color: #4D4D4D;
-        align-items: center;
-        font-family: 'Gilroy-Light';
-        font-weight: bold;
-        padding-left: 10px;
-        padding-right: 10px;
-        display: flex;
-        align-items: center;
-    }
-
-    .banner,
-    .second-section::before,
-    .video-box,
-    .video-box {
-        background-position: center !important;
-        background-size: 100% 100% !important;
-        background-repeat: no-repeat !important;
-    }
-
-    .text-div {
-        width: 690px;
-    }
-
-    .searchData {
-        height: 997px;
-    }
-
-    .signDiv {
-        height: 997px;
-    }
-
-    .banner::after {
-        right: 394px;
-        height: 260px;
-        width: 110px;
-        top: 72px;
-    }
-
-    .overlay {
-        position: unset;
-        background-color: transparent;
-    }
-
-    .contantSectionFirstDiv {
-        position: absolute;
-        content: "";
-        width: 350px;
-        height: 79px;
-        left: 0px;
-        top: -30px;
-
-    }
-
-    .contantSectionLastDiv {
-        position: absolute;
-        content: "";
-        width: 350px;
-        height: 79px;
-        right: 28px;
-        bottom: -45px;
-
-    }
-
-}
-
-@media only screen and (min-width:2550px) {
-    #main-content {
-        display: none;
-    }
-
-    .banner {
-        height: 830px;
-
-    }
-
-    .banner::before {
-        background-position: center !important;
-        background-size: 100% 100% !important;
-        background-repeat: no-repeat !important;
-    }
-
-    .second-section {
-        height: 920px;
-
-    }
-
-    .second-section::before {
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-
-    .video-box-width {
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-
-    .whiteDiv {
-        width: 60%;
-        right: 480px;
-    }
-
-    .contantSection::before {
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-
-    }
-
-    .banner1,
-    .contactBanner {
-        height: 1253px;
-    }
-
-    .contactBanner1 {
-        height: 1250px;
-    }
-
-    .banner1::before,
-    .contactBanner::before {
-        background-position: center;
-        background-size: 100% 100% !important;
-        background-repeat: no-repeat;
-    }
-
-    .banner::after {
-        right: 673px;
-        height: 260px;
-        width: 110px;
-        top: 321px;
-    }
-
-    .second-section {
-        height: 627px;
-        position: relative;
-    }
-
-    .second-section::before {
-        background-position: center !important;
-        background-size: 100% 100% !important;
-        background-repeat: no-repeat !important;
-    }
-
-    .banner2::before {
-        position: absolute;
-        content: "";
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-position: center !important;
-        background-size: 100% 100% !important;
-        background-repeat: no-repeat !important;
-
-    }
-
-    .searchData {
-        height: 830px;
-    }
-
-    .link a {
-        text-decoration: none;
-        margin: 0 10px;
-        color: #4D4D4D;
-        align-items: center;
-        font-family: 'Gilroy-Light';
-        font-weight: bold;
-        padding-left: 10px;
-        padding-right: 10px;
-        display: flex;
-        align-items: center;
-    }
-
-    .third-section {
-        width: 1539px;
-        margin: auto;
-    }
-
-    .play-font {
-        width: 100%;
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: auto;
-        top: 40%;
-        bottom: 0;
-        margin: auto;
-        opacity: 0.9;
-    }
-
-    .contantSectionFirstDiv {
-        position: absolute;
-        content: "";
-        width: 350px;
-        height: 79px;
-        left: 0px;
-        top: -30px;
-
-    }
-
-    .contantSectionLastDiv {
-        position: absolute;
-        content: "";
-        width: 350px;
-        height: 79px;
-        right: 28px;
-        bottom: -45px;
-
-    }
-
-}
 /* Dashboard Profile Css */
 #wrapper {
     display: flex;
@@ -2325,7 +1926,7 @@ span i {
     margin-left: auto;
 }
 #wrapper #content-wrapper {
-    background-color: #f8f9fc;
+    /* background-color: #f8f9fc; */
     width: 80%;
     overflow-x: hidden;
     padding: 20px;
@@ -2509,6 +2110,419 @@ span i {
 .divMon {
     padding: 2rem;
 }
+
+/*  */
+
+/*  */
+/* ========================================= */
+/* MEDIA QUERY  */
+/* ========================================= */
+@media (min-width:1600px) and (min-width:1920px) and (min-width:2560px) and (max-width:1366px) and (max-width:1280px) and (max-width:1024px) {
+    #main-content {
+        display: none;
+    }
+}
+
+/* ================= Min Media Queries============================= */
+@media only screen and (min-width:1600px) {
+    #main-content {
+        display: none;
+    }
+
+    .banner,
+    .second-section::before {
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .banner::after {
+        display: none;
+
+    }
+
+    .signDiv {
+        height: 696px;
+    }
+
+    .forgetpassword {
+        height: 669px;
+    }
+
+    .link a {
+        text-decoration: none;
+        margin: 0 10px;
+        color: #4D4D4D;
+        align-items: center;
+        font-family: 'Gilroy-Light';
+        font-weight: bold;
+        padding-left: 10px;
+        padding-right: 10px;
+        display: flex;
+        align-items: center;
+    }
+
+    .contactBanner {
+        position: relative;
+        padding-top: 5rem;
+    }
+
+    .contantSectionFirstDiv {
+        position: absolute;
+        content: "";
+        width: 350px;
+        height: 79px;
+        left: 0px;
+        top: -30px;
+
+    }
+
+    .contantSectionLastDiv {
+        position: absolute;
+        content: "";
+        width: 350px;
+        height: 79px;
+        right: 28px;
+        bottom: -45px;
+
+    }
+    .sidebar .nav-item { 
+        width: 235px!important;
+    }
+
+}
+
+@media only screen and (min-width:1400px) {
+    #btn {
+        display: none;
+    }
+
+    #main-content {
+        display: none;
+    }
+
+    .link a {
+        margin: 0px 10px;
+    }
+
+    .link a {
+        text-decoration: none;
+        margin: 0 10px;
+        color: #4D4D4D;
+        align-items: center;
+        font-family: 'Gilroy-Light';
+        font-weight: bold;
+        padding-left: 10px;
+        padding-right: 10px;
+        display: flex;
+        align-items: center;
+    }
+
+    .contantSectionFirstDiv {
+        position: absolute;
+        content: "";
+        width: 350px;
+        height: 79px;
+        left: 0px;
+        top: -30px;
+
+    }
+
+    .contantSectionLastDiv {
+        position: absolute;
+        content: "";
+        width: 350px;
+        height: 79px;
+        right: 28px;
+        bottom: -45px;
+
+    }
+}
+
+@media only screen and (min-width:1440px) {
+    #main-content {
+        display: none;
+    }
+
+    .banner::after {
+        right: 68px;
+        top: 106px;
+    }
+
+    .innerDiv {
+        width: 460px;
+        height: 500px;
+        margin: auto;
+    }
+
+    .link a {
+        text-decoration: none;
+        margin: 0 10px;
+        color: #4D4D4D;
+        align-items: center;
+        font-family: 'Gilroy-Light';
+        font-weight: bold;
+        padding-left: 10px;
+        padding-right: 10px;
+        display: flex;
+        align-items: center;
+    }
+
+    .contantSectionFirstDiv {
+        position: absolute;
+        content: "";
+        width: 350px;
+        height: 79px;
+        left: 0px;
+        top: -30px;
+
+    }
+
+    .contantSectionLastDiv {
+        position: absolute;
+        content: "";
+        width: 350px;
+        height: 79px;
+        right: 28px;
+        bottom: -45px;
+
+    }
+
+    .contantSection {
+        margin-top: 5rem;
+    }
+}
+
+@media only screen and (min-width:1920px) {
+    #main-content {
+        display: none;
+    }
+
+    .link a {
+        text-decoration: none;
+        margin: 0 10px;
+        color: #4D4D4D;
+        align-items: center;
+        font-family: 'Gilroy-Light';
+        font-weight: bold;
+        padding-left: 10px;
+        padding-right: 10px;
+        display: flex;
+        align-items: center;
+    }
+
+    .banner,
+    .second-section::before,
+    .video-box,
+    .video-box {
+        background-position: center !important;
+        background-size: 100% 100% !important;
+        background-repeat: no-repeat !important;
+    }
+
+    .text-div {
+        width: 690px;
+    }
+
+    .searchData {
+        height: 997px;
+    }
+
+    .signDiv {
+        height: 997px;
+    }
+
+    .banner::after {
+        right: 394px;
+        height: 260px;
+        width: 110px;
+        top: 72px;
+    }
+
+    .overlay {
+        position: unset;
+        background-color: transparent;
+    }
+
+    .contantSectionFirstDiv {
+        position: absolute;
+        content: "";
+        width: 350px;
+        height: 79px;
+        left: 0px;
+        top: -30px;
+
+    }
+
+    .contantSectionLastDiv {
+        position: absolute;
+        content: "";
+        width: 350px;
+        height: 79px;
+        right: 28px;
+        bottom: -45px;
+
+    }
+    .sidebar .nav-item {
+        width: 234px!important;
+        left: 150px!important;
+        /* left: 8px; */
+    }
+
+}
+
+@media only screen and (min-width:2550px) {
+    #main-content {
+        display: none;
+    }
+
+    .banner {
+        height: 830px;
+
+    }
+
+    .banner::before {
+        background-position: center !important;
+        background-size: 100% 100% !important;
+        background-repeat: no-repeat !important;
+    }
+
+    .second-section {
+        height: 920px;
+
+    }
+
+    .second-section::before {
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .video-box-width {
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .whiteDiv {
+        width: 60%;
+        right: 480px;
+    }
+
+    .contantSection::before {
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+    }
+
+    .banner1,
+    .contactBanner {
+        height: 1253px;
+    }
+
+    .contactBanner1 {
+        height: 1250px;
+    }
+
+    .banner1::before,
+    .contactBanner::before {
+        background-position: center;
+        background-size: 100% 100% !important;
+        background-repeat: no-repeat;
+    }
+
+    .banner::after {
+        right: 673px;
+        height: 260px;
+        width: 110px;
+        top: 321px;
+    }
+
+    .second-section {
+        height: 627px;
+        position: relative;
+    }
+
+    .second-section::before {
+        background-position: center !important;
+        background-size: 100% 100% !important;
+        background-repeat: no-repeat !important;
+    }
+
+    .banner2::before {
+        position: absolute;
+        content: "";
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-position: center !important;
+        background-size: 100% 100% !important;
+        background-repeat: no-repeat !important;
+
+    }
+
+    .searchData {
+        height: 830px;
+    }
+
+    .link a {
+        text-decoration: none;
+        margin: 0 10px;
+        color: #4D4D4D;
+        align-items: center;
+        font-family: 'Gilroy-Light';
+        font-weight: bold;
+        padding-left: 10px;
+        padding-right: 10px;
+        display: flex;
+        align-items: center;
+    }
+
+    .third-section {
+        width: 1539px;
+        margin: auto;
+    }
+
+    .play-font {
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: auto;
+        top: 40%;
+        bottom: 0;
+        margin: auto;
+        opacity: 0.9;
+    }
+
+    .contantSectionFirstDiv {
+        position: absolute;
+        content: "";
+        width: 350px;
+        height: 79px;
+        left: 0px;
+        top: -30px;
+
+    }
+
+    .contantSectionLastDiv {
+        position: absolute;
+        content: "";
+        width: 350px;
+        height: 79px;
+        right: 28px;
+        bottom: -45px;
+
+    }
+    .sidebar .nav-item {
+        width: 275px!important;
+        left: 237px!important;
+        /* left: 8px; */
+    }
+
+}
+
 /*  */
 /*  */
 /* ===================  Max Media Queries ======================== */
@@ -2591,6 +2605,10 @@ span i {
         position: absolute;
         content: "";
         right: 210px;
+    }
+    /* dashboard css */
+    .sidebar .nav-item {
+        left: 72px;
     }
 
 }
@@ -3429,6 +3447,52 @@ span i {
         position: absolute;
         content: "";
         right: 40px;
+    }
+    #wrapper {
+        margin-top: 40px;
+    }
+    .order-list1 .navbar-nav{
+        display: none;
+    }
+    #wrapper #content-wrapper {
+        width: 100%;
+        overflow-x: hidden;
+        padding: 20px;
+    }
+    .profile {
+        width: 170px;
+        height: 170px;
+        border-radius: 50%;
+        /* background-color: #003D70; */
+    }
+    .profile img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 100px;
+        object-position: right;
+    }
+    .form {
+        height: 503px;
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+        flex-direction: column;
+    }
+    .form .form-control {
+        width: 100%;
+        border-radius: 40px;
+        padding: 10px;
+        border: 1px solid #003D70;
+    }
+    .form1 .form-control {
+        width: 100%;
+        border-radius: 40px;
+        padding: 10px;
+        border: 1px solid #003D70;
+    }
+    #paddingSmall{
+        padding-bottom: 0px!important;
     }
 }
 
