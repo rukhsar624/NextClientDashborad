@@ -66,5 +66,37 @@ function openDiv(){
 	}
 	console.log(display);
 }
+// 
+// MOBILE SCREEN SIDE NAV
+var sidebarBox1 = document.querySelector('#box1');
+var sidebarBtn1 = document.querySelector('#btn1');
+var pageWrapper1 = document.querySelector('#main-content1');
+
+sidebarBtn1.addEventListener('click', function (event) {
+
+	if (this.classList.contains('active1')) {
+		this.classList.remove('active1');
+		sidebarBox1.classList.remove('active1');
+	} else {
+		this.classList.add('active1');
+		sidebarBox1.classList.add('active1');
+	}
+});
+
+pageWrapper1.addEventListener('click', function (event) {
+
+	if (sidebarBox1.classList.contains('active1')) {
+		sidebarBtn1.classList.remove('active1');
+		sidebarBox1.classList.remove('active1');
+	}
+});
+window.addEventListener('keydown', function (event) {
+
+	if (sidebarBox1.classList.contains('active1') && event.keyCode === 27) {
+		sidebarBtn1.classList.remove('active1');
+		sidebarBox1.classList.remove('active1');
+	}
+});
+
 
 
