@@ -3151,6 +3151,9 @@ span i {
 }
 
 @media only screen and (max-width:820px) {
+    .fileLable label {
+        width: 35%;
+    }
     #main-content {
         display: block;
     }
@@ -3499,7 +3502,7 @@ span i {
         object-position: right;
     }
     .profileSection  .form {
-        height: 800px;
+        height: 830px;
         display: flex;
         justify-content: center;
         /* align-items: center; */
@@ -3976,7 +3979,7 @@ span i {
         object-position: right;
     }
     .profileSection  .form {
-        height: 800px;
+        height: 830px;
         display: flex;
         justify-content: center;
         /* align-items: center; */
