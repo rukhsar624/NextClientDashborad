@@ -125,7 +125,7 @@
                                 <div class="imgSvg">
                                     <img src="../../assets/imgaes/SVG/lock.svg" alt="">
                                 </div>
-                                <div class="imgSvgText"><span>change password</span></div>
+                                <div class="imgSvgText"><span>Change password</span></div>
                             </div>
                         </a>
                     </li>
@@ -218,15 +218,19 @@
                         <!-- Begin Page Content -->
                         <div class="container-fluid">
                             <div class="container">
-
                                 <div id="example_wrapper" class="dataTables_wrapper form-inline dt-bootstrap no-footer">
                                     <div class="row">
                                         <div class="col-lg-3">
                                             <div class="profile">
                                                 <img src="../../assets/imgaes/1x/profileimg.png" alt="">
                                             </div>
-                                            <div class="mt-3">
-                                                <button type="button" class="changeBtn">Change</button>
+                                            <div class="mt-3 fileLable">
+                                                <!-- <input type="file" name="" id="">
+                                                <button type="file" class="changeBtn">Change</button> -->
+                                                <input type="file" name="" id="uploadFile">
+                                                <label for="uploadFile" class="d-flex justify-content-center align-items-center text-center changeBtn">
+                                                    Change
+                                            </label>
                                             </div>
                                         </div>
                                         <div class="col-lg-9">
@@ -245,7 +249,21 @@
                                                         <div class="mb-3">
                                                             <input type="email" class="form-control"
                                                                 id="exampleInputEmail1" aria-describedby="emailHelp"
-                                                                placeholder="email">
+                                                                placeholder="Email">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-12">
+                                                        <div class="mb-3">
+                                                            <input type="number" class="form-control"
+                                                                id="exampleInputEmail1" aria-describedby="emailHelp"
+                                                                placeholder="D.O.B">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-12">
+                                                        <div class="mb-3">
+                                                            <input type="text" class="form-control"
+                                                                id="exampleInputEmail1" aria-describedby="emailHelp"
+                                                                placeholder="Business License#">
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-12">
@@ -267,6 +285,11 @@
                                                             <input type="number" class="form-control"
                                                                 id="exampleInputEmail1" aria-describedby="emailHelp"
                                                                 placeholder="Postal Code">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-12">
+                                                        <div class="mb-3">
+                                                            <textarea type="message" name="message" id="" cols="85" rows="7" placeholder="Business Information" style="height: 221px;"></textarea>
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-12">

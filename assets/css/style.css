@@ -2087,7 +2087,7 @@ span i {
     margin-bottom: 20px;
 }
 .profileSection .form{
-    height: 690px;
+    height: 1030px;
     display: flex;
     justify-content: center;
     /* align-items: center; */
@@ -2098,12 +2098,33 @@ span i {
     border-radius: 40px;
     padding: 10px;
     border: 1px solid #003D70;
-}    
+}   
+
 .profileSection  .form .form-control::placeholder{
     color: #999999;
     font-family: 'Gilroy-Light';
     font-size: 13px;
     padding-left: 10px;
+}
+.profileSection  textarea{
+    resize: vertical;
+    padding: 12px 9px;
+    background: transparent;
+    border: 1px solid #003D70;
+    width: 80%;
+    outline: none;
+    border-radius: 13px;
+    font-family: "Gilroy-Light";
+    min-height: 200px;
+    max-height: 200px;
+    
+}
+.profileSection  textarea::placeholder{
+    color: #999999;
+    font-family: 'Gilroy-Light';
+    font-size: 13px;
+    /* padding-left: 10px;s */
+
 }
 .saveBtn{
     color: #003D70;
@@ -2120,6 +2141,10 @@ span i {
     background-color: #003D70;
     color: #fff;
     box-shadow: rgb(70 114 159 / 66%) 2px 14px 20px;
+
+}
+.fileLable label{
+    width: 65%;
 
 }
 /*  */
@@ -2298,7 +2323,26 @@ span i {
 }
 
 /*  */
-
+/* change password dashboard */
+.eyeDiv1{
+    position: relative;
+}
+#eye1{
+    position: absolute;
+    content: "";
+    right: 175px;
+    top: 15px;
+}
+.eyeDiv2{
+    position: relative;
+}
+#eye2{
+    position: absolute;
+    content: "";
+    right: 175px;
+    top: 15px;
+}
+/*  */
 /*  */
 /* ========================================= */
 /* MEDIA QUERY  */
@@ -2387,6 +2431,18 @@ span i {
         width: 200px;
         left: 79px!important;
         /* left: 8px; */
+    }
+    #eye1 {
+        position: absolute;
+        content: "";
+        right: 190px;
+        top: 15px;
+    }
+    #eye2 {
+        position: absolute;
+        content: "";
+        right: 190px;
+        top: 15px;
     }
 
 }
@@ -2586,6 +2642,18 @@ span i {
         width: 234px!important;
         left: 144px!important;
         /* left: 8px; */
+    }
+    #eye1 {
+        position: absolute;
+        content: "";
+        right: 213px;
+        top: 15px;
+    }
+    #eye2 {
+        position: absolute;
+        content: "";
+        right: 213px;
+        top: 15px;
     }
 
 }
@@ -3067,6 +3135,19 @@ span i {
     .pakagesInner::before {
         border-radius: 10px; 
 }
+/* dashboard css */
+#eye1 {
+    position: absolute;
+    content: "";
+    right: 118px;
+    top: 15px;
+}
+#eye2 {
+    position: absolute;
+    content: "";
+    right: 118px;
+    top: 15px;
+}
 }
 
 @media only screen and (max-width:820px) {
@@ -3244,7 +3325,20 @@ span i {
         left: 64px;
     }
     .profileSection  .form {
-        height: 500px;
+        height: 800px;
+    }
+    /* dashboard css */
+    #eye1 {
+        position: absolute;
+        content: "";
+        right: 108px;
+        top: 15px;
+    }
+    #eye2 {
+        position: absolute;
+        content: "";
+        right: 108px;
+        top: 15px;
     }
 
 }
@@ -3355,7 +3449,19 @@ span i {
         left: 45px;
     }
     .profileSection  .form {
-        height: 480px;
+        height: 800px;
+    }
+    #eye1 {
+        position: absolute;
+        content: "";
+        right: 108px;
+        top: 15px;
+    }
+    #eye2 {
+        position: absolute;
+        content: "";
+        right: 108px;
+        top: 15px;
     }
 
 }
@@ -3393,7 +3499,7 @@ span i {
         object-position: right;
     }
     .profileSection  .form {
-        height: 503px;
+        height: 800px;
         display: flex;
         justify-content: center;
         /* align-items: center; */
@@ -3681,6 +3787,7 @@ span i {
         content: "";
         right: 40px;
     }
+
     .form1 .form-control {
         width: 100%;
     }
@@ -3692,6 +3799,23 @@ span i {
     }
     .pakagesInner::before {
         border-radius: 10px; 
+}
+/* dashboard css */
+#eye1 {
+    position: absolute;
+    content: "";
+    right: 14px;
+    top: 15px;
+}
+#eye2 {
+    position: absolute;
+    content: "";
+    right: 14px;
+    top: 15px;
+}
+.profileSection textarea {
+    width: 100%;
+    padding: 10px 19px;
 }
 }
 
@@ -3744,7 +3868,7 @@ span i {
         object-position: right;
     }
     .profileSection  .form {
-        height: 503px;
+        height: 800px;
         display: flex;
         justify-content: center;
         /* align-items: center; */
@@ -3852,7 +3976,7 @@ span i {
         object-position: right;
     }
     .profileSection  .form {
-        height: 503px;
+        height: 800px;
         display: flex;
         justify-content: center;
         /* align-items: center; */
@@ -3900,6 +4024,23 @@ span i {
 }
 #btn1.active1 #top1 , #btn1.active1 #bottom1{
     background-color:#fff;
+}
+/* dashboard css */
+#eye1 {
+    position: absolute;
+    content: "";
+    right: 14px;
+    top: 15px;
+}
+#eye2 {
+    position: absolute;
+    content: "";
+    right: 14px;
+    top: 15px;
+}
+.profileSection textarea {
+    width: 100%;
+    padding: 10px 19px;
 }
 }
 
